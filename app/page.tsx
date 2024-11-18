@@ -1,7 +1,7 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import { lusitanaFont } from '@/app/ui/fonts';
+import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
 
 export default function Page() {
@@ -23,7 +23,7 @@ export default function Page() {
         {/* Left section with welcome message */}
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-4 py-8 md:w-2/5 md:px-10">
 
-          <p className={`${lusitanaFont.className} text-lg text-gray-800 md:text-2xl md:leading-relaxed`}>
+          <p className={`${lusitana.className} text-lg text-gray-800 md:text-2xl md:leading-relaxed`}>
             <strong>Selamat Datang!</strong> <br /> Ini adalah situs web pembelajaran{' '}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
               Mata Kuliah Web Teknologi
