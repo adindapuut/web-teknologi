@@ -1,4 +1,4 @@
-import { lusitanaFont } from "@/app/ui/fonts";
+import { lusitana } from "@/app/ui/fonts";
 import Image from "next/image";
 import { AtSymbolIcon, KeyIcon } from '@heroicons/react/24/outline';
 import { ArrowRightIcon } from "@heroicons/react/20/solid";
@@ -17,7 +17,7 @@ export default function Page() {
             </div>
             <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20 m-auto">
                 <form className="space-y-6">
-                    <h1 className={`${lusitanaFont.className} text-xl md:text-2xl`}>
+                    <h1 className={`${lusitana.className} text-xl md:text-2xl`}>
                         Silahkan Masuk dengan akun Anda.
                     </h1>
                     <div className="w-full">
